@@ -247,6 +247,15 @@ h4,
   text-decoration: none;
   color: var(--primary);
   letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo-img {
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--white);
 }
 
 .logo span {
@@ -666,6 +675,16 @@ h4,
   color: var(--white);
   font-size: 2rem;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo-img {
+  height: 50px;
+  border-radius: 50%;
+  background: var(--white);
+  padding: 3px;
 }
 
 .footer-logo span {
